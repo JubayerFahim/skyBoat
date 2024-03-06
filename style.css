@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Metal&display=swap');
+.root{
+--bg-color:#00A2E2;
+--second-bg:#363636;
+}
+
+.body-container{
+position: relative;
+width: 100%;
+height: 100vh;
+background: #00A2E2;
+}
+.body-container::after{
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 170px;
+    background: #000;
+    width: 40%;
+    height: 100%;
+    transform: skew(332deg, 180deg);
+    z-index: 1;
+}
+.body-container::before{
+    content: '';
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 27%;
+    height: 100%;
+    background: #000;
+}
+a#brand-logo {
+    font-size: 30px;
+    position: relative;
+    left: 12%;
+    color: white;
+    width: 170px;
+    height: 70px;
+    background: black;
+    text-align: center;
+    top: -10px;
+}
+p.advertise {
+    position: relative;
+    color: white;
+    left: 0%;
+    top: 20px;
+}
+li.nav-item {
+    z-index: 2;
+    margin: 0 15px;
+}
+.create{
+    font-size: 80px;
+    font-weight: bolder;
+}
+.agency{
+    font-size: 80px;
+    font-weight: bolder;
+}
+.col-md-6{
+    z-index: 2;
+    position: relative;
+    left: 70px;
+    top: 40px;
+}
+.txt{
+    position: relative;
+    left: 15%;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: "Metal", serif;
+}
+h1.text-end {
+    position: relative;
+    left: -26%;
+    top: 25px;
+}
+
+p.text-center {
+    position: relative;
+    top: 18px;
+    left: -54px;
+    letter-spacing: 10px;
+    font-size: 23px;
+    font-weight: bold;
+}
